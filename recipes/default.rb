@@ -87,6 +87,7 @@ end
 
 chocolatey_package 'dropbox' do
     action :upgrade
+    ignore_failure true
 end
 
 chocolatey_package 'onedrive' do
