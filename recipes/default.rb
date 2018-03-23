@@ -105,6 +105,7 @@ end
 
 chocolatey_package 'skype' do
     action :upgrade
+    ignore_failure true
 end
 
 chocolatey_package 'jre8' do
@@ -121,10 +122,12 @@ end
 
 chocolatey_package 'classic-shell' do
     action :upgrade
+    ignore_failure true
 end
 
 chocolatey_package 'mobaxterm' do
     action :upgrade
+    ignore_failure true
 end
 
 chocolatey_package 'qbittorrent' do
@@ -134,3 +137,57 @@ end
 chocolatey_package 'neovim' do
     action :upgrade
 end
+
+chocolatey_package 'speccy' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'cpu-z' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'gpu-z' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'treesizefree' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'wiztree' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'rufus' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'yumi' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'lili' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'handbrake' do
+    action :upgrade
+    ignore_failure true
+end
+
+chocolatey_package 'hpusbdisk' do
+    action :upgrade
+    ignore_failure true
+end
+
+
+
+
