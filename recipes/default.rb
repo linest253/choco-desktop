@@ -15,7 +15,7 @@ chocolatey_package 'gow' do
     ignore_failure true
 end
 
-package_array = ['googlechrome', 'adobeshockwaveplayer', 'firefox', 'flashplayerplugin', 'adobereader', 'jre8', 'adobeair', '7zip', 'vlc', 'putty.install', 'powershell', 'silverlight', 'flashplayerppapi', 'winscp', 'keepass', 'wunderlist', 'slack', 'adblockpluschrome', 'adblockplus-firefox', 'dropbox', 'onedrive', 'googledrive', 'k-litecodecpackfull', 'skype', 'jre9', 'greenshot', 'openoffice', 'classic-shell', 'mobaxterm', 'qbittorrent', 'neovim', 'speccy', 'cpu-z', 'gpu-z', 'treesizefree', 'wiztree', 'rufus', 'yumi', 'lili', 'handbrake', 'hpusbdisk', 'poweriso', 'sdformatter', 'formatfactory']
+package_array = ['googlechrome', 'adobeshockwaveplayer', 'firefox', 'flashplayerplugin', 'jre8', 'adobeair', '7zip', 'vlc', 'putty.install', 'powershell', 'silverlight', 'flashplayerppapi', 'winscp', 'keepass', 'wunderlist', 'slack', 'adblockpluschrome', 'adblockplus-firefox', 'dropbox', 'onedrive', 'googledrive', 'k-litecodecpackfull', 'skype', 'jre9', 'greenshot', 'openoffice', 'classic-shell', 'qbittorrent', 'neovim', 'speccy', 'cpu-z', 'gpu-z', 'treesizefree', 'wiztree', 'rufus', 'yumi', 'lili', 'handbrake', 'hpusbdisk', 'sdformatter', 'formatfactory']
 
 package_array.each do |this_package|
     chocolatey_package this_package do
